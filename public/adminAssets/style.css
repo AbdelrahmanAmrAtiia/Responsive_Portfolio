@@ -1,0 +1,645 @@
+* {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* navbar */
+
+
+/* .navbar {
+    background-color: lightgrey !important;
+}
+
+.navbar-brand {
+    color: black !important;
+} */
+
+.navbar {
+    padding: 0rem;
+    margin-bottom: 2rem;
+}
+
+.first-nav {
+    background-color: #010041 !important;
+}
+
+.second-nav {
+    background-color: rgb(240, 229, 229) !important;
+}
+
+.nav-content-1 {
+    color: white;
+    font-weight: bold;
+    margin-left: 0px !important;
+}
+
+.nav-content-2 {
+    color: black !important;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+/*start of banner style */
+
+.banner {
+    max-height: 400px !important;
+    width: 60% !important;
+    margin: auto;
+    margin-top: 30px !important;
+    border: 5px solid white;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+}
+
+
+/*index-content section*/
+
+.index-content {
+    /* margin-top: 10px; */
+    height: 100% !important;
+}
+
+.welcome-part {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    max-height: 700px;
+}
+
+.card-img-top {
+    width: 150px !important;
+    height: 150px !important;
+    margin: auto;
+}
+
+.our-mail {
+    color: blue;
+    font-weight: bold;
+}
+
+.rooms-part {
+    max-height: 300px;
+    margin-top: 140px;
+}
+
+.index-head {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.search-section {
+    display: flex;
+}
+
+.search-form {
+    margin: auto;
+    position: absolute;
+    left: 30%;
+}
+
+.show-rooms {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+
+/* bolding  */
+
+.bold {
+    font-weight: bold;
+}
+
+.note {
+    text-align: left;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+
+/* table section table-bold in show.blade.php */
+
+.table-bold {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.table-data {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(16, 46, 145);
+}
+
+@media only screen and (max-width: 1500px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        border: 1px solid #ccc;
+    }
+    td {
+        border: none;
+        border-bottom: 1px solid black;
+        position: relative;
+        padding-left: 200px;
+        margin-left: 150px;
+    }
+    td:before {
+        position: absolute;
+        top: 12px;
+        left: 6px;
+        width: 200px;
+        padding-right: 40px;
+        white-space: nowrap;
+        margin-left: -150px;
+    }
+    td:nth-of-type(1):before {
+        content: "ID";
+        color: black !important;
+        font-weight: bold;
+    }
+    td:nth-of-type(2):before {
+        content: "Name";
+        color: black !important;
+        font-weight: bold;
+    }
+    td:nth-of-type(3):before {
+        content: "Mail";
+        color: black !important;
+        font-weight: bold;
+    }
+    td:nth-of-type(4):before {
+        content: "password";
+        color: black !important;
+        font-weight: bold;
+    }
+}
+
+.rooms-part-show {
+    width: 100% !important;
+    margin-top: 50px;
+}
+
+
+/* search again btn */
+
+.search-again-btn {
+    display: grid;
+    width: 310px;
+    font-size: 20px;
+    margin: auto;
+}
+
+
+/*error.blade.php style */
+
+.rooms-part-error {
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .rooms-part-error {
+        margin-top: 50px !important;
+    }
+}
+
+.show-rooms-error {
+    margin: auto;
+}
+
+
+/*fooooooooooter*/
+
+.footer-section {
+    background-color: #2A2A2A;
+    margin-top: 30px;
+    position: relative;
+    width: 100% !important;
+}
+
+@media (max-width: 600px) {
+    .footer-section {
+        margin-top: 120px !important;
+    }
+}
+
+
+/*find.blade.php*/
+
+.search-section-find {
+    display: inline-block;
+}
+
+.show-rooms-find {
+    margin: auto;
+    margin-top: 60px !important;
+    width: 500px;
+}
+
+.room-name-head {
+    text-align: center;
+    font-size: 35px;
+}
+
+.room-link-head {
+    text-align: center;
+    font-size: 35px;
+}
+
+.warning-text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/*for zoom button*/
+
+.index-content-find {
+    margin-top: 30px;
+}
+
+.zoom-btn {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 20px !important;
+    padding: 0px !important;
+    font-size: 25px !important;
+}
+
+.zoom-logo {
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.search-anchor {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+/*************************************************login page style*********************************************/
+
+.login-form {
+    height: 722px !important;
+}
+
+.login-left {
+    background: url('../assetsUser/images/image_1.jpg');
+    background-size: cover;
+    position: relative !important;
+    height: 100% !important;
+    width: 100%;
+}
+
+@media (max-width: 770px) {
+    .login-left {
+        display: none;
+    }
+    .login-right {
+        width: 100% !important;
+    }
+}
+
+.login-right {
+    width: 70%;
+    height: 600px;
+    margin-top: 30px !important;
+    /*to get it in the middle horozintal*/
+    margin-left: auto !important;
+    margin-right: auto !important;
+    /*background-color: #4dc0b5;*/
+}
+
+.login-logo {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: auto !important;
+}
+
+.login-heading {
+    /*font-weight: bold;*/
+    margin-top: 80px !important;
+    margin-left: 60px !important;
+    font-weight: 700;
+    margin-bottom: 5px !important;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-paragraph {
+    margin-left: 60px !important;
+    margin-bottom: 30px !important;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #646464;
+}
+
+.login-button {
+    background-color: #e9b102 !important;
+    margin-top: 15px !important;
+    font-family: 'Roboto', sans-serif !important;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 30px;
+    margin-bottom: 10px !important;
+    -webkit-transition: all 0.9s ease-in-out !important;
+    -o-transition: all 0.9s ease-in-out !important;
+    transition: all 0.9s ease-in-out !important;
+}
+
+.login-button:hover {
+    background-color: #6e7a06 !important;
+}
+
+.login-forget {
+    color: #646464 !important;
+    margin-left: 10px !important;
+}
+
+.opacity {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1 !important;
+}
+
+
+.login-left-content {
+    width: 60% !important;
+    height: 300px !important;
+    left: 20%;
+    margin-top: 300px !important;
+    z-index: 5 !important;
+}
+
+.login-left-heading {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-left-paragraph {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 10px;
+}
+
+.login-left-list li a {
+    color: white !important;
+    font-size: 17px;
+}
+
+.login-left-list li:hover a {
+    color: #e9b102 !important;
+    ;
+}
+
+.login-left-register {
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+
+/*************************************************register page style*********************************************/
+
+.register-btn {
+    background-color: #e9b102 !important;
+    margin-top: 15px !important;
+    font-family: 'Roboto', sans-serif !important;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 30px;
+    margin-bottom: 10px !important;
+    -webkit-transition: all 0.9s ease-in-out !important;
+    -o-transition: all 0.9s ease-in-out !important;
+    transition: all 0.9s ease-in-out !important;
+}
+
+.register-btn:hover {
+    background-color: #6e7a06 !important;
+}
+
+.register-left {
+    /*https://i.pinimg.com/564x/76/2c/b6/762cb69d0d418f102e95dab2f48f33dd.jpg*/
+    /*https://i.pinimg.com/564x/3a/f8/ce/3af8ce16a972759d2e9e068fcfffcac3.jpg*/
+    background: url('/images/register-right.jpg');
+    background-size: cover;
+    position: relative !important;
+    height: 722px;
+}
+
+
+/*home.blade.php*/
+
+.show-rooms-home {
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+@media (max-width: 600px) {
+    .show-rooms-home {
+        margin-top: 100px !important;
+    }
+}
+
+.add-btn {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-bottom: 20px !important;
+}
+
+@media (max-width: 600px) {
+    .edit-admin-main {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .delete-admin-main {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+}
+
+
+/* Responsive Styles*/
+
+
+/* Smartphones (portrait) ---------------- */
+
+@media only screen and (max-width: 320px) {
+    /* need to make corousel in all page in phones */
+    .banner {
+        width: 100% !important;
+    }
+    /* index.blade.php */
+    .search-form {
+        margin-left: -60px !important;
+    }
+    /* welcome part in the left need to make margin to be in the center  */
+    .index-content {
+        width: 100% !important;
+        display: block;
+        margin: auto;
+    }
+    .welcome-part {
+        /* margin-left: 35px !important; */
+        margin-top: 40px;
+        width: 100% !important;
+    }
+    .rooms-part {
+        width: 100% !important;
+    }
+    .card {
+        margin-top: 20px !important;
+    }
+    .search-again-btn {
+        width: 40px !important;
+    }
+}
+
+
+/* Smartphones (landscape) ---------------- */
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    /* need to make corousel in all page in phones */
+    .banner {
+        width: 100% !important;
+    }
+    /* index.blade.php */
+    .search-form {
+        margin-left: -60px !important;
+    }
+    .search-input-btn {
+        display: block;
+        margin: auto;
+    }
+    /* welcome part in the left need to make margin to be in the center  */
+    .index-content {
+        width: 100% !important;
+        display: block;
+        margin: auto;
+    }
+    .welcome-part {
+        width: 100% !important;
+        margin-top: 30px;
+    }
+    .rooms-part {
+        width: 100% !important;
+    }
+    .card {
+        margin-top: 20px !important;
+    }
+    .footer-section {
+        margin-top: 120px;
+    }
+}
+
+
+/* Tablets (portrait) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* need to make corousel in all page in phones */
+    .banner {
+        width: 100% !important;
+    }
+    /* welcome part in the left need to make margin to be in the center  */
+    .welcome-part {
+        margin-left: 0px !important;
+    }
+    .footer-section {
+        margin-top: 820px !important;
+    }
+}
+
+
+/* Tablets (landscape) ------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* need to make corousel in all page in phones */
+    .banner {
+        width: 100% !important;
+    }
+    /* welcome part in the left need to make margin to be in the center  */
+    .welcome-part {
+        margin-left: 0px !important;
+    }
+    .footer-section {
+        margin-top: 820px !important;
+    }
+}
+
+
+/* Old Desktops and laptops ------------------ */
+
+@media only screen and (min-width: 1025px) {
+    /* need to make corousel in all page in phones */
+    .banner {
+        width: 60% !important;
+    }
+    /* welcome part in the left need to make margin to be in the center  */
+    .welcome-part {
+        margin-left: 0px !important;
+    }
+}
+
+
+/* Desktops ------------------ */
+
+@media only screen and (min-width: 1201px) {
+    /* need to make corousel in all page in phones */
+    .banner {
+        width: 60% !important;
+    }
+    /* welcome part in the left need to make margin to be in the center  */
+    .welcome-part {
+        margin-left: 0px !important;
+    }
+}
